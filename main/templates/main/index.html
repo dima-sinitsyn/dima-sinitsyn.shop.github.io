@@ -1,0 +1,37 @@
+
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block css %}
+    <link rel="stylesheet" href="{% static "deps/css/my_footer_css.css" %}">
+{% endblock css %}
+
+
+{% block modal_cart %}
+{% include "includes/cart_button.html" %}
+{% endblock  %}
+
+
+
+{% block content %}
+    <i>
+        <p>
+            <h1  style="color:#ff0000" class="mt-0 pt-0" >
+                <strong>{{content}}</strong>
+            </h1>
+        </p>
+    </i>
+{% endblock content %}
+
+
+
+
+
+{% block footer %}
+<footer class="py-4 bg-dark">
+    <div class="container">
+        <p class="m-0 text-center text-white">Магазин Robot Сделан Синицыным Дмитрием  11.2024</p>
+    </div>
+</footer>
+{% endblock footer %}

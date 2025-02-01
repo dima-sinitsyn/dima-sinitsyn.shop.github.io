@@ -1,0 +1,138 @@
+[
+    {
+        "model": "goods1.categories",
+        "pk": 1,
+        "fields": {
+            "name": "все товары",
+            "slug": "all"
+        }
+    },
+    {
+        "model": "goods1.categories",
+        "pk": 2,
+        "fields": {
+            "name": "кухня",
+            "slug": "kuhnya"
+        }
+    },
+    {
+        "model": "goods1.categories",
+        "pk": 3,
+        "fields": {
+            "name": "Спальня",
+            "slug": "spalnya"
+        }
+    },
+    {
+        "model": "goods1.categories",
+        "pk": 4,
+        "fields": {
+            "name": "Гостинная",
+            "slug": "gostinnaya"
+        }
+    },
+    {
+        "model": "goods1.categories",
+        "pk": 5,
+        "fields": {
+            "name": "Офис",
+            "slug": "ofis"
+        }
+    },
+    {
+        "model": "goods1.categories",
+        "pk": 6,
+        "fields": {
+            "name": "Фурнитура",
+            "slug": "furnitura"
+        }
+    },
+    {
+        "model": "goods1.categories",
+        "pk": 7,
+        "fields": {
+            "name": "Декор",
+            "slug": "dekor"
+        }
+    },
+    {
+        "model": "goods1.categories",
+        "pk": 8,
+        "fields": {
+            "name": "Компьютеры",
+            "slug": "kompyutery"
+        }
+    },
+    {
+        "model": "goods1.categories",
+        "pk": 9,
+        "fields": {
+            "name": "Телевизоры",
+            "slug": "televizory"
+        }
+    },
+    {
+        "model": "goods1.categories",
+        "pk": 10,
+        "fields": {
+            "name": "СВЧ печи",
+            "slug": "svch-pechi"
+        }
+    },
+    {
+        "model": "goods1.categories",
+        "pk": 11,
+        "fields": {
+            "name": "Комплектующие к ПК",
+            "slug": "komplektuyushie-k-pk"
+        }
+    },
+    {
+        "model": "goods1.categories",
+        "pk": 12,
+        "fields": {
+            "name": "Холодильники",
+            "slug": "holodilniki"
+        }
+    },
+    {
+        "model": "goods1.categories",
+        "pk": 13,
+        "fields": {
+            "name": "Кухонные плиты",
+            "slug": "kuhonnye-plity"
+        }
+    },
+    {
+        "model": "goods1.categories",
+        "pk": 14,
+        "fields": {
+            "name": "Кофеварки, чайники",
+            "slug": "kofevarki-chajniki"
+        }
+    },
+    {
+        "model": "goods1.categories",
+        "pk": 15,
+        "fields": {
+            "name": "Стиральные машины",
+            "slug": "stiralnye-mashiny"
+        }
+    },
+    {
+        "model": "goods1.categories",
+        "pk": 16,
+        "fields": {
+            "name": "Пылесосы",
+            "slug": "pylesosy"
+        }
+    },
+    {
+        "model": "goods1.categories",
+        "pk": 17,
+        "fields": {
+            "name": "Сотовые телефоны и аксесуары к ним",
+            "slug": "sotovye-telefony-i-aksesuary-k-nim"
+        }
+    }
+]

@@ -1,0 +1,58 @@
+
+{% extends "base.html" %}
+{% load static %}
+
+
+
+
+
+{% block css %}
+    <link rel="stylesheet" href="{% static "deps/css/my_footer_css.css" %}">
+{% endblock css %}
+
+
+{% block modal_cart %}
+{% include "includes/cart_button.html" %}
+{% endblock  %}
+
+
+
+{% block content %}
+    <div  class="mt-5 pt-5 bg-light  custom-shadow rounded">
+        <div class="text-container" align="center" >
+            <strong>
+                <big> 
+                    <h2 style="color:#6610f2">Информация о нас</h2>
+                        <ins>
+                            <i>«Robot» — один из лидеров рынка по продаже оргтехники. Компания оказывает широкий спектр услуг – от консультаций со специалистами разного уровня и до продажи оргтехники и мебели на заказ.</i>
+                            <p>Компания имеет опыт крупнейших интернет-магазинов различных стран.</p>
+                            
+                        </ins>
+                        <big style="color:#dc3545"> Здесь представлен список партнеров магазина : </big>
+                            <p ><a href="https://www.dns-shop.ru">ДНС </a></p> 
+                            <p><a style="color:#FFD200" href="https://www.eldorado.ru">Эльдорадо</a></p>
+                            <p ><a style="color:#CB0077" href="https://www.citilink.ru/">Ситилинк</a></p>
+                            <p ><a style="color:#14D100" href="https://network-technologies.ru">Элтекс</a></p>
+
+                </big>
+            </strong>
+        </div>     
+      
+    </div> 
+        
+
+    
+{% endblock content %}
+
+
+
+
+
+
+{% block footer %}
+<footer class="py-4 bg-dark">
+    <div class="container">
+        <p class="m-0 text-center text-white">Магазин Robot Сделан Синицыным Дмитрием  11.2024</p>
+    </div>
+</footer>
+{% endblock footer %}

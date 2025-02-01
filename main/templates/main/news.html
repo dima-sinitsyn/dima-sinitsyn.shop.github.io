@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block css %}
+    <link rel="stylesheet" href="{% static "deps/css/my_footer_css.css" %}">
+{% endblock css %}
+
+
+{% block modal_cart %}
+{% include "includes/cart_button.html" %}
+{% endblock  %}
+
+
+{% block content %}
+    <div  class="mt-5 pt-5 bg-white custom-shadow rounded"> 
+    <h3 align="center" class="m-1 "><strong>{{ content}}</strong></h3>
+    <p class="m-5 "> {{text_page}} </p>
+    <a align="center" href="https://dzen.ru/video/watch/65439678749fed1f157f8d04" target="_blank"> 
+        <p align="center">  Видео магазина «Robot»
+        </p>
+    </a>
+    </div>
+{% endblock content %}
+
+
+{% comment %} {% block footer %}
+<footer class="py-4 bg-dark">
+    <div class="container">
+        <p class="m-0 text-center text-white">Магазин Robot Сделан Синицыным Дмитрием  08.2024</p>
+    </div>
+</footer>
+{% endblock footer %} {% endcomment %}
+
+
+
+{% block footer %}
+<footer class="py-4 bg-dark">
+    <div class="container">
+        <p class="m-0 text-center text-white">Магазин Robot Сделан Синицыным Дмитрием  11.2024</p>
+    </div>
+</footer>
+{% endblock footer %}
